@@ -1,6 +1,10 @@
 import logo from './logo.svg';
 import './App.css';
 import Header from './component/Header';
+import Footer from './component/Footer';
+import MainContent from './component/MainContent';
+import NavigationMenu from './component/NavigationMenu';
+import Content from './component/Content';
 
 function App() {
   let name = "Dung";
@@ -11,11 +15,13 @@ function App() {
   return (
     <>
       <Header />
-      <div className="test" style={css}>.0\        <h1>Hello, {name}!</h1>
+      <NavigationMenu />
+      <div className="main">
+        <Content />
+        <MainContent />
+        <Content />
       </div>
-      <div className="test" style={css}>
-        <h1>Hello, {name}!</h1>
-      </div>
+      <Footer />
     </>
   );
 }

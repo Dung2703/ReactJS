@@ -1,7 +1,7 @@
 function Header() {
     return (
         <>
-            header
+            <div className="box">Header</div>
         </>
     )
 }
