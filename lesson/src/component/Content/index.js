@@ -1,7 +1,12 @@
-function Content() {
+function Content(props) {
+    const { text, number, active } = props;
+    // console.log(props);
+    // console.log(props.text);
     return (
         <>
-            <div className="box">Content</div>
+            <div className={"box" + (active ? " box--active" : "")}>
+                {text} - {number}
+            </div>
         </>
     )
 }
