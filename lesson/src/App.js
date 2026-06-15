@@ -6,6 +6,7 @@ import MainContent from './component/MainContent';
 import NavigationMenu from './component/NavigationMenu';
 import Content from './component/Content';
 import Login from './component/Login';
+import Menu from './component/Menu';
 
 function App() {
   let name = "Dung";
@@ -25,8 +26,12 @@ function App() {
     //   <Footer />
     // </>
 
+    // <>
+    //   <Login />
+    // </>
+
     <>
-      <Login />
+      <Menu />
     </>
   );
 }
