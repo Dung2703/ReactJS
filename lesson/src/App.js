@@ -7,6 +7,8 @@ import NavigationMenu from './component/NavigationMenu';
 import Content from './component/Content';
 import Login from './component/Login';
 import Menu from './component/Menu';
+import ProductList from './component/ProductList';
+import Country from './component/Country';
 
 function App() {
   let name = "Dung";
@@ -30,8 +32,13 @@ function App() {
     //   <Login />
     // </>
 
+    // <>
+    //   <Menu />
+    // </>
+
     <>
-      <Menu />
+      {/* {<ProductList />} */}
+      {<Country />}
     </>
   );
 }
