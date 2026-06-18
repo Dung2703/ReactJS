@@ -1,17 +1,19 @@
 import { country } from "../../data/country";
+// import "./Country.css";
+import "./Country.scss";
 
 function Country() {
     console.log(country);
 
     return (
         <>
-            <ul>
+            <ul className="country">
                 {(country || []).map(itemCountry => (
-                    <li key={itemCountry.id}>
-                        <span>{itemCountry.name}</span>
-                        <ul>
+                    <li className="country_item" key={itemCountry.id}>
+                        <span className="country_text">{itemCountry.name}</span>
+                        <ul className="country_sub">
                             {(itemCountry.city || []).map(itemCity => (
-                                <li key={itemCity.id}>{itemCity.name}</li>
+                                <li className="country_sub_item" key={itemCity.id}>{itemCity.name}</li>
                             ))}
                         </ul>
                     </li>
