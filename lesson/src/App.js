@@ -9,6 +9,8 @@ import Login from './component/Login';
 import Menu from './component/Menu';
 import ProductList from './component/ProductList';
 import Country from './component/Country';
+import Cart from './component/Cart';
+import Modal from './component/Modal';
 
 function App() {
   let name = "Dung";
@@ -38,7 +40,9 @@ function App() {
 
     <>
       {/* {<ProductList />} */}
-      {<Country />}
+      {/* {<Country />} */}
+      {/* {<Cart />} */}
+      {<Modal />}
     </>
   );
 }
