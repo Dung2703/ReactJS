@@ -11,6 +11,7 @@ import ProductList from './component/ProductList';
 import Country from './component/Country';
 import Cart from './component/Cart';
 import Modal from './component/Modal';
+import UseEffect1 from './component/UseEffect';
 
 function App() {
   let name = "Dung";
@@ -42,7 +43,8 @@ function App() {
       {/* {<ProductList />} */}
       {/* {<Country />} */}
       {/* {<Cart />} */}
-      {<Modal />}
+      {/* {<Modal />} */}
+      {<UseEffect1 />}
     </>
   );
 }
