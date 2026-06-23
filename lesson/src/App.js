@@ -12,6 +12,7 @@ import Country from './component/Country';
 import Cart from './component/Cart';
 import Modal from './component/Modal';
 import UseEffect1 from './component/UseEffect';
+import UseEffect2 from './component/UseEffect2';
 
 function App() {
   let name = "Dung";
@@ -44,7 +45,8 @@ function App() {
       {/* {<Country />} */}
       {/* {<Cart />} */}
       {/* {<Modal />} */}
-      {<UseEffect1 />}
+      {/* {<UseEffect1 />} */}
+      {<UseEffect2 />}
     </>
   );
 }
