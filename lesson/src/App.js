@@ -13,7 +13,8 @@ import './App.css';
 // import Modal from './component/Modal';
 // import UseEffect1 from './component/UseEffect';
 // import UseEffect2 from './component/UseEffect2';
-import UseEffect3 from './component/UseEffect3';
+// import UseEffect3 from './component/UseEffect3';
+import Layout from './component/UseContext/Layout';
 
 function App() {
   let name = "Dung";
@@ -48,7 +49,8 @@ function App() {
       {/* {<Modal />} */}
       {/* {<UseEffect1 />} */}
       {/* {<UseEffect2 />} */}
-      <UseEffect3 />
+      {/* <UseEffect3 /> */}
+      <Layout />
     </>
   );
 }
