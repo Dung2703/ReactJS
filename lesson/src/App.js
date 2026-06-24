@@ -1,18 +1,19 @@
 import logo from './logo.svg';
 import './App.css';
-import Header from './component/Header';
-import Footer from './component/Footer';
-import MainContent from './component/MainContent';
-import NavigationMenu from './component/NavigationMenu';
-import Content from './component/Content';
-import Login from './component/Login';
-import Menu from './component/Menu';
-import ProductList from './component/ProductList';
-import Country from './component/Country';
-import Cart from './component/Cart';
-import Modal from './component/Modal';
-import UseEffect1 from './component/UseEffect';
-import UseEffect2 from './component/UseEffect2';
+// import Header from './component/Header';
+// import Footer from './component/Footer';
+// import MainContent from './component/MainContent';
+// import NavigationMenu from './component/NavigationMenu';
+// import Content from './component/Content';
+// import Login from './component/Login';
+// import Menu from './component/Menu';
+// import ProductList from './component/ProductList';
+// import Country from './component/Country';
+// import Cart from './component/Cart';
+// import Modal from './component/Modal';
+// import UseEffect1 from './component/UseEffect';
+// import UseEffect2 from './component/UseEffect2';
+import UseEffect3 from './component/UseEffect3';
 
 function App() {
   let name = "Dung";
@@ -46,7 +47,8 @@ function App() {
       {/* {<Cart />} */}
       {/* {<Modal />} */}
       {/* {<UseEffect1 />} */}
-      {<UseEffect2 />}
+      {/* {<UseEffect2 />} */}
+      <UseEffect3 />
     </>
   );
 }
