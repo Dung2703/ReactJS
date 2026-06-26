@@ -15,6 +15,7 @@ import './App.css';
 // import UseEffect2 from './component/UseEffect2';
 // import UseEffect3 from './component/UseEffect3';
 import Layout from './component/UseContext/Layout';
+import UseRef from './component/UseRef';
 
 function App() {
   let name = "Dung";
@@ -50,7 +51,8 @@ function App() {
       {/* {<UseEffect1 />} */}
       {/* {<UseEffect2 />} */}
       {/* <UseEffect3 /> */}
-      <Layout />
+      {/* <Layout /> */}
+      <UseRef />
     </>
   );
 }
