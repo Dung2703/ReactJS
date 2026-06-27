@@ -1,6 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
-import RandomGift from './component/RandomGift';
+// import RandomGift from './component/RandomGift';
 // import Header from './component/Header';
 // import Footer from './component/Footer';
 // import MainContent from './component/MainContent';
@@ -17,6 +17,7 @@ import RandomGift from './component/RandomGift';
 // import UseEffect3 from './component/UseEffect3';
 // import Layout from './component/UseContext/Layout';
 // import UseRef from './component/UseRef';
+import Memo from './component/Memo';
 
 function App() {
   let name = "Dung";
@@ -54,7 +55,8 @@ function App() {
       {/* <UseEffect3 /> */}
       {/* <Layout /> */}
       {/* <UseRef /> */}
-      <RandomGift />
+      {/* <RandomGift /> */}
+      <Memo />
     </>
   );
 }
