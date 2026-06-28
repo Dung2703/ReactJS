@@ -1,5 +1,6 @@
-import { useCallback, useState } from "react"
+import { useCallback, useMemo, useState } from "react"
 import CallBackEx from "../CallBackEx"
+import pow from "../Healper/pow"
 
 function CallBack() {
     const [counter, setCounter] = useState(0)
@@ -14,10 +15,15 @@ function CallBack() {
         setCounter(0)
     }, [])
 
+    const powResult = useMemo(() => {
+        pow()
+    }, [])
+
     return (
         <>
             <div>Result is: {counter}</div>
             <CallBackEx onCounter={handleChange} onReset={handelResetNumber} />
+            <div>{powResult}</div>
         </>
     )
 }
