@@ -1,6 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
-import CallBack from './component/CallBack';
+// import CallBack from './component/CallBack';
 // import RandomGift from './component/RandomGift';
 // import Header from './component/Header';
 // import Footer from './component/Footer';
@@ -19,6 +19,7 @@ import CallBack from './component/CallBack';
 // import Layout from './component/UseContext/Layout';
 // import UseRef from './component/UseRef';
 // import Memo from './component/Memo';
+import Reducer from './component/Reducer';
 
 function App() {
   let name = "Dung";
@@ -58,7 +59,8 @@ function App() {
       {/* <UseRef /> */}
       {/* <RandomGift /> */}
       {/* <Memo /> */}
-      <CallBack />
+      {/* <CallBack /> */}
+      <Reducer />
     </>
   );
 }
