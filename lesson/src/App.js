@@ -1,5 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
+import Todos from './component/Todos';
 // import CallBack from './component/CallBack';
 // import RandomGift from './component/RandomGift';
 // import Header from './component/Header';
@@ -23,11 +24,11 @@ import './App.css';
 // import CounterRedux from './component/CounterRedux';
 // import CounterRedux2 from './component/CounterRedux2';
 function App() {
-  let name = "Dung";
-  const css = {
-    color: "red",
-    backgroundColor: "blue"
-  }
+  // let name = "Dung";
+  // const css = {
+  //   color: "red",
+  //   backgroundColor: "blue"
+  // }
   return (
     // <>
     //   <Header />
@@ -64,6 +65,7 @@ function App() {
       {/* <Reducer /> */}
       {/* <CounterRedux />
       <CounterRedux2 /> */}
+      <Todos />
     </>
   );
 }
