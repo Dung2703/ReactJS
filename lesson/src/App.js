@@ -19,8 +19,9 @@ import './App.css';
 // import Layout from './component/UseContext/Layout';
 // import UseRef from './component/UseRef';
 // import Memo from './component/Memo';
-import Reducer from './component/Reducer';
-
+// import Reducer from './component/Reducer';
+// import CounterRedux from './component/CounterRedux';
+// import CounterRedux2 from './component/CounterRedux2';
 function App() {
   let name = "Dung";
   const css = {
@@ -60,7 +61,9 @@ function App() {
       {/* <RandomGift /> */}
       {/* <Memo /> */}
       {/* <CallBack /> */}
-      <Reducer />
+      {/* <Reducer /> */}
+      {/* <CounterRedux />
+      <CounterRedux2 /> */}
     </>
   );
 }
