@@ -1,0 +1,9 @@
+.card-item {
+    border: 1px solid #ddd;
+    padding: 10px 20px;
+    border-radius: 6px;
+}
+
+.mg-20 {
+    margin-top: 20px;
+}
