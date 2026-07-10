@@ -3,11 +3,13 @@
 import logo from './logo.svg';
 import './App.css';
 import ButtonInfo from './Components/Button';
+import Grid from './Components/Grid/index'
 
 function App() {
   return (
     <>
-      {<ButtonInfo />}
+      {/* {<ButtonInfo />} */}
+      {<Grid />}
     </>
   );
 }
