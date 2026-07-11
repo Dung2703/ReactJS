@@ -5,13 +5,15 @@ import './App.css';
 import ButtonInfo from './Components/Button';
 import Grid from './Components/Grid/index'
 import Card from './Components/CardItem';
+import LayoutDefault from './Layout/LayoutDefault';
 
 function App() {
   return (
     <>
       {/* {<ButtonInfo />} */}
       {/* {<Grid />} */}
-      <Card />
+      {/* <Card /> */}
+      <LayoutDefault />
     </>
   );
 }
