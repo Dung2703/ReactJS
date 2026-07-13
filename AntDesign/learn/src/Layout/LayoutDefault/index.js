@@ -1,6 +1,7 @@
 import { Layout } from "antd"
 import Card from "../../Components/CardItem"
 import './LayoutDefault.css'
+import Noti from '../../Components/CardItem/Noti/index'
 
 const { Content, Sider } = Layout
 
@@ -9,7 +10,7 @@ function LayoutDefault() {
         <>
             <Layout className="layout-default">
                 <header className="header">
-                    header
+                    <Noti />
                 </header>
                 <Layout>
                     <Sider className="sider">
