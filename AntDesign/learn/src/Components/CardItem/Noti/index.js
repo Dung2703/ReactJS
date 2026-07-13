@@ -31,7 +31,13 @@ function Noti() {
     return (
         <>
             <Dropdown
-                menu={{ items: item }} trigger={'click'}>
+                menu={{ items: item }} trigger={'click'}
+                dropdownRender={(menu) => (
+                    <>
+                        <div className="dropdown">Test</div>
+                    </>
+                )}
+            >
                 <Button type="text" icon={<BellOutlined />}></Button>
             </Dropdown>
         </>
