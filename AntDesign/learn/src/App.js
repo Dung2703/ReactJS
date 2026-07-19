@@ -6,6 +6,7 @@ import ButtonInfo from './Components/Button';
 import Grid from './Components/Grid/index'
 import Card from './Components/CardItem';
 import LayoutDefault from './Layout/LayoutDefault';
+import Bookroom from './Components/CardItem/Input';
 
 function App() {
   return (
@@ -13,7 +14,8 @@ function App() {
       {/* {<ButtonInfo />} */}
       {/* {<Grid />} */}
       {/* <Card /> */}
-      <LayoutDefault />
+      {/* <LayoutDefault /> */}
+      <Bookroom />
     </>
   );
 }
