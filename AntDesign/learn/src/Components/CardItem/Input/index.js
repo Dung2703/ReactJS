@@ -1,4 +1,4 @@
-import { Input, Col, Row, Button } from "antd"
+import { Input, Col, Row, Button, Checkbox, Space } from "antd"
 import { useState } from "react"
 
 function Bookroom() {
@@ -9,11 +9,18 @@ function Bookroom() {
             [e.target.name]: e.target.value
         };
         setData(object)
-        console.log(object)
     }
 
     const handleClick = () => {
         console.log("Submit to server", data)
+    }
+
+    const handleChangeCheckbox = (e) => {
+        const object = {
+            ...data,
+            service: e
+        };
+        setData(object)
     }
     return (
         <>
@@ -31,6 +38,19 @@ function Bookroom() {
                     <p>Email</p>
                     <Input name="email" placeholder="abc@email.com" onChange={handleChange} />
                 </Col>
+
+                <Col span={12}>
+                    <p>Service</p>
+                    <Checkbox.Group onChange={handleChangeCheckbox}>
+                        <Space.Compact orientation="vertical">
+                            <Checkbox value="A">A</Checkbox>
+                            <Checkbox value="B">B</Checkbox>
+                            <Checkbox value="C">C</Checkbox>
+                            <Checkbox value="D">D</Checkbox>
+                        </Space.Compact>
+                    </Checkbox.Group>
+                </Col>
+
                 <Col span={24}>
                     <Button type="primary" onClick={handleClick}>Book Room</Button>
                 </Col>
